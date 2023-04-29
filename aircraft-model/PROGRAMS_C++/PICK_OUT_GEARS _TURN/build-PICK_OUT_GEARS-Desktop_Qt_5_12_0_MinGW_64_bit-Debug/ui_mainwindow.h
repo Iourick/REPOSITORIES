@@ -1,0 +1,505 @@
+/********************************************************************************
+** Form generated from reading UI file 'mainwindow.ui'
+**
+** Created by: Qt User Interface Compiler version 5.12.0
+**
+** WARNING! All changes made in this file will be lost when recompiling UI file!
+********************************************************************************/
+
+#ifndef UI_MAINWINDOW_H
+#define UI_MAINWINDOW_H
+
+#include <QtCore/QVariant>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QDoubleSpinBox>
+#include <QtWidgets/QFrame>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
+#include <QtWidgets/QMainWindow>
+#include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QScrollArea>
+#include <QtWidgets/QStatusBar>
+#include <QtWidgets/QToolBar>
+#include <QtWidgets/QWidget>
+
+QT_BEGIN_NAMESPACE
+
+class Ui_MainWindow
+{
+public:
+    QWidget *centralWidget;
+    QFrame *frame_5;
+    QFrame *frame_10;
+    QLabel *label_27;
+    QPushButton *pushButton_7;
+    QDoubleSpinBox *doubleSpinBox_23;
+    QLineEdit *lineEdit_6;
+    QLabel *label_51;
+    QLabel *label_28;
+    QLineEdit *lineEdit_7;
+    QPushButton *pushButton_4;
+    QFrame *frame_8;
+    QPushButton *pushButton;
+    QLabel *label_8;
+    QLabel *label_9;
+    QDoubleSpinBox *doubleSpinBox_4;
+    QFrame *frame_9;
+    QLineEdit *lineEdit_3;
+    QPushButton *pushButton_5;
+    QLabel *label_26;
+    QLineEdit *lineEdit_5;
+    QLabel *label_48;
+    QDoubleSpinBox *doubleSpinBox_21;
+    QLabel *label_49;
+    QDoubleSpinBox *doubleSpinBox_22;
+    QPushButton *pushButton_6;
+    QLabel *label_11;
+    QLabel *label_25;
+    QFrame *frame_11;
+    QDoubleSpinBox *doubleSpinBox_a;
+    QLabel *label_20;
+    QDoubleSpinBox *doubleSpinBox_c;
+    QLabel *label_18;
+    QLabel *label_21;
+    QDoubleSpinBox *doubleSpin_L;
+    QLabel *label_19;
+    QLabel *label_23;
+    QLabel *label_24;
+    QLabel *label_22;
+    QDoubleSpinBox *doubleSpinBoxZ2;
+    QDoubleSpinBox *doubleSpinBoxZ1;
+    QDoubleSpinBox *doubleSpinBoxYmax;
+    QPushButton *pushButton_9;
+    QScrollArea *scrollArea;
+    QWidget *scrollAreaWidgetContents;
+    QFrame *frame_6;
+    QLabel *label_46;
+    QDoubleSpinBox *doubleSpinBox_19;
+    QDoubleSpinBox *doubleSpinBox_20;
+    QLabel *label_47;
+    QLabel *label_45;
+    QFrame *frame_7;
+    QLabel *label_50;
+    QLineEdit *lineEdit_4;
+    QPushButton *pushButton_11;
+    QFrame *frame;
+    QPushButton *pushButton_8;
+    QLabel *label_29;
+    QDoubleSpinBox *doubleSpinBox_24;
+    QLabel *label_52;
+    QPushButton *pushButton_10;
+    QLineEdit *lineEdit_8;
+    QDoubleSpinBox *doubleSpinBox_25;
+    QDoubleSpinBox *doubleSpinBox_26;
+    QDoubleSpinBox *doubleSpinBox_27;
+    QLabel *label_53;
+    QLabel *label_54;
+    QLabel *label_55;
+    QLineEdit *lineEdit_9;
+    QLabel *label_30;
+    QMenuBar *menuBar;
+    QToolBar *mainToolBar;
+    QStatusBar *statusBar;
+    QToolBar *toolBar;
+
+    void setupUi(QMainWindow *MainWindow)
+    {
+        if (MainWindow->objectName().isEmpty())
+            MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
+        MainWindow->setWindowModality(Qt::ApplicationModal);
+        MainWindow->resize(1281, 818);
+        QFont font;
+        font.setPointSize(12);
+        MainWindow->setFont(font);
+        MainWindow->setTabletTracking(true);
+        MainWindow->setAutoFillBackground(false);
+        centralWidget = new QWidget(MainWindow);
+        centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
+        frame_5 = new QFrame(centralWidget);
+        frame_5->setObjectName(QString::fromUtf8("frame_5"));
+        frame_5->setGeometry(QRect(10, 0, 511, 551));
+        frame_5->setFrameShape(QFrame::WinPanel);
+        frame_5->setFrameShadow(QFrame::Plain);
+        frame_5->setLineWidth(2);
+        frame_5->setMidLineWidth(-3);
+        frame_10 = new QFrame(frame_5);
+        frame_10->setObjectName(QString::fromUtf8("frame_10"));
+        frame_10->setGeometry(QRect(0, 430, 511, 111));
+        frame_10->setFrameShape(QFrame::Panel);
+        frame_10->setFrameShadow(QFrame::Plain);
+        frame_10->setLineWidth(3);
+        label_27 = new QLabel(frame_10);
+        label_27->setObjectName(QString::fromUtf8("label_27"));
+        label_27->setGeometry(QRect(40, 10, 441, 20));
+        pushButton_7 = new QPushButton(frame_10);
+        pushButton_7->setObjectName(QString::fromUtf8("pushButton_7"));
+        pushButton_7->setGeometry(QRect(210, 30, 71, 31));
+        doubleSpinBox_23 = new QDoubleSpinBox(frame_10);
+        doubleSpinBox_23->setObjectName(QString::fromUtf8("doubleSpinBox_23"));
+        doubleSpinBox_23->setGeometry(QRect(420, 30, 71, 31));
+        doubleSpinBox_23->setDecimals(0);
+        doubleSpinBox_23->setMaximum(10000000.000000000000000);
+        lineEdit_6 = new QLineEdit(frame_10);
+        lineEdit_6->setObjectName(QString::fromUtf8("lineEdit_6"));
+        lineEdit_6->setGeometry(QRect(20, 30, 171, 31));
+        label_51 = new QLabel(frame_10);
+        label_51->setObjectName(QString::fromUtf8("label_51"));
+        label_51->setGeometry(QRect(310, 30, 111, 20));
+        label_28 = new QLabel(frame_10);
+        label_28->setObjectName(QString::fromUtf8("label_28"));
+        label_28->setGeometry(QRect(260, 70, 151, 16));
+        lineEdit_7 = new QLineEdit(frame_10);
+        lineEdit_7->setObjectName(QString::fromUtf8("lineEdit_7"));
+        lineEdit_7->setGeometry(QRect(420, 70, 71, 31));
+        pushButton_4 = new QPushButton(frame_10);
+        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
+        pushButton_4->setGeometry(QRect(20, 70, 171, 31));
+        frame_8 = new QFrame(frame_5);
+        frame_8->setObjectName(QString::fromUtf8("frame_8"));
+        frame_8->setGeometry(QRect(0, 150, 511, 81));
+        frame_8->setFrameShape(QFrame::Box);
+        frame_8->setFrameShadow(QFrame::Plain);
+        frame_8->setLineWidth(3);
+        frame_8->setMidLineWidth(1);
+        pushButton = new QPushButton(frame_8);
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        pushButton->setGeometry(QRect(10, 40, 211, 31));
+        label_8 = new QLabel(frame_8);
+        label_8->setObjectName(QString::fromUtf8("label_8"));
+        label_8->setGeometry(QRect(20, 10, 481, 20));
+        label_9 = new QLabel(frame_8);
+        label_9->setObjectName(QString::fromUtf8("label_9"));
+        label_9->setGeometry(QRect(260, 40, 151, 16));
+        doubleSpinBox_4 = new QDoubleSpinBox(frame_8);
+        doubleSpinBox_4->setObjectName(QString::fromUtf8("doubleSpinBox_4"));
+        doubleSpinBox_4->setGeometry(QRect(420, 40, 62, 22));
+        doubleSpinBox_4->setReadOnly(true);
+        doubleSpinBox_4->setDecimals(0);
+        doubleSpinBox_4->setMaximum(3000000.000000000000000);
+        frame_9 = new QFrame(frame_5);
+        frame_9->setObjectName(QString::fromUtf8("frame_9"));
+        frame_9->setGeometry(QRect(0, 240, 511, 181));
+        frame_9->setFrameShape(QFrame::Box);
+        frame_9->setFrameShadow(QFrame::Plain);
+        frame_9->setLineWidth(3);
+        frame_9->setMidLineWidth(1);
+        lineEdit_3 = new QLineEdit(frame_9);
+        lineEdit_3->setObjectName(QString::fromUtf8("lineEdit_3"));
+        lineEdit_3->setGeometry(QRect(20, 70, 171, 31));
+        pushButton_5 = new QPushButton(frame_9);
+        pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
+        pushButton_5->setGeometry(QRect(210, 70, 71, 31));
+        label_26 = new QLabel(frame_9);
+        label_26->setObjectName(QString::fromUtf8("label_26"));
+        label_26->setGeometry(QRect(10, 40, 291, 20));
+        lineEdit_5 = new QLineEdit(frame_9);
+        lineEdit_5->setObjectName(QString::fromUtf8("lineEdit_5"));
+        lineEdit_5->setGeometry(QRect(390, 150, 71, 21));
+        label_48 = new QLabel(frame_9);
+        label_48->setObjectName(QString::fromUtf8("label_48"));
+        label_48->setGeometry(QRect(340, 41, 111, 20));
+        doubleSpinBox_21 = new QDoubleSpinBox(frame_9);
+        doubleSpinBox_21->setObjectName(QString::fromUtf8("doubleSpinBox_21"));
+        doubleSpinBox_21->setGeometry(QRect(350, 70, 91, 31));
+        doubleSpinBox_21->setDecimals(0);
+        doubleSpinBox_21->setMaximum(10000000.000000000000000);
+        label_49 = new QLabel(frame_9);
+        label_49->setObjectName(QString::fromUtf8("label_49"));
+        label_49->setGeometry(QRect(20, 110, 161, 31));
+        doubleSpinBox_22 = new QDoubleSpinBox(frame_9);
+        doubleSpinBox_22->setObjectName(QString::fromUtf8("doubleSpinBox_22"));
+        doubleSpinBox_22->setGeometry(QRect(200, 110, 91, 31));
+        doubleSpinBox_22->setDecimals(0);
+        doubleSpinBox_22->setMaximum(9000.000000000000000);
+        doubleSpinBox_22->setValue(1.000000000000000);
+        pushButton_6 = new QPushButton(frame_9);
+        pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));
+        pushButton_6->setGeometry(QRect(20, 150, 161, 28));
+        label_11 = new QLabel(frame_9);
+        label_11->setObjectName(QString::fromUtf8("label_11"));
+        label_11->setGeometry(QRect(230, 150, 151, 16));
+        label_25 = new QLabel(frame_9);
+        label_25->setObjectName(QString::fromUtf8("label_25"));
+        label_25->setGeometry(QRect(10, 20, 491, 20));
+        frame_11 = new QFrame(frame_5);
+        frame_11->setObjectName(QString::fromUtf8("frame_11"));
+        frame_11->setGeometry(QRect(0, 10, 511, 131));
+        frame_11->setFrameShape(QFrame::Panel);
+        frame_11->setFrameShadow(QFrame::Plain);
+        frame_11->setLineWidth(3);
+        doubleSpinBox_a = new QDoubleSpinBox(frame_11);
+        doubleSpinBox_a->setObjectName(QString::fromUtf8("doubleSpinBox_a"));
+        doubleSpinBox_a->setGeometry(QRect(130, 40, 51, 23));
+        doubleSpinBox_a->setButtonSymbols(QAbstractSpinBox::NoButtons);
+        doubleSpinBox_a->setDecimals(6);
+        doubleSpinBox_a->setMaximum(100000000.000000000000000);
+        doubleSpinBox_a->setValue(450.000000000000000);
+        label_20 = new QLabel(frame_11);
+        label_20->setObjectName(QString::fromUtf8("label_20"));
+        label_20->setGeometry(QRect(10, 40, 21, 22));
+        label_20->setFrameShape(QFrame::Box);
+        label_20->setLineWidth(0);
+        label_20->setScaledContents(true);
+        doubleSpinBox_c = new QDoubleSpinBox(frame_11);
+        doubleSpinBox_c->setObjectName(QString::fromUtf8("doubleSpinBox_c"));
+        doubleSpinBox_c->setGeometry(QRect(30, 40, 51, 23));
+        doubleSpinBox_c->setButtonSymbols(QAbstractSpinBox::NoButtons);
+        doubleSpinBox_c->setDecimals(5);
+        doubleSpinBox_c->setMaximum(100000000.000000000000000);
+        doubleSpinBox_c->setValue(300.000000000000000);
+        label_18 = new QLabel(frame_11);
+        label_18->setObjectName(QString::fromUtf8("label_18"));
+        label_18->setGeometry(QRect(110, 10, 231, 21));
+        label_21 = new QLabel(frame_11);
+        label_21->setObjectName(QString::fromUtf8("label_21"));
+        label_21->setGeometry(QRect(100, 40, 21, 22));
+        label_21->setFrameShape(QFrame::Box);
+        label_21->setLineWidth(0);
+        label_21->setScaledContents(true);
+        doubleSpin_L = new QDoubleSpinBox(frame_11);
+        doubleSpin_L->setObjectName(QString::fromUtf8("doubleSpin_L"));
+        doubleSpin_L->setGeometry(QRect(230, 40, 41, 23));
+        doubleSpin_L->setButtonSymbols(QAbstractSpinBox::NoButtons);
+        doubleSpin_L->setDecimals(4);
+        doubleSpin_L->setMinimum(-100000.000000000000000);
+        doubleSpin_L->setMaximum(100000000.000000000000000);
+        doubleSpin_L->setSingleStep(0.010000000000000);
+        doubleSpin_L->setValue(0.100000000000000);
+        label_19 = new QLabel(frame_11);
+        label_19->setObjectName(QString::fromUtf8("label_19"));
+        label_19->setGeometry(QRect(190, 40, 41, 22));
+        label_19->setFrameShape(QFrame::NoFrame);
+        label_19->setScaledContents(true);
+        label_23 = new QLabel(frame_11);
+        label_23->setObjectName(QString::fromUtf8("label_23"));
+        label_23->setGeometry(QRect(360, 40, 31, 22));
+        label_23->setFrameShape(QFrame::Box);
+        label_23->setLineWidth(0);
+        label_23->setScaledContents(true);
+        label_24 = new QLabel(frame_11);
+        label_24->setObjectName(QString::fromUtf8("label_24"));
+        label_24->setGeometry(QRect(430, 10, 61, 22));
+        label_24->setFrameShape(QFrame::NoFrame);
+        label_24->setScaledContents(true);
+        label_22 = new QLabel(frame_11);
+        label_22->setObjectName(QString::fromUtf8("label_22"));
+        label_22->setGeometry(QRect(280, 40, 21, 22));
+        label_22->setFrameShape(QFrame::Box);
+        label_22->setLineWidth(0);
+        label_22->setScaledContents(true);
+        doubleSpinBoxZ2 = new QDoubleSpinBox(frame_11);
+        doubleSpinBoxZ2->setObjectName(QString::fromUtf8("doubleSpinBoxZ2"));
+        doubleSpinBoxZ2->setGeometry(QRect(390, 40, 51, 23));
+        doubleSpinBoxZ2->setButtonSymbols(QAbstractSpinBox::NoButtons);
+        doubleSpinBoxZ2->setMinimum(-10000000000000.000000000000000);
+        doubleSpinBoxZ2->setMaximum(100000000.000000000000000);
+        doubleSpinBoxZ2->setValue(0.000000000000000);
+        doubleSpinBoxZ1 = new QDoubleSpinBox(frame_11);
+        doubleSpinBoxZ1->setObjectName(QString::fromUtf8("doubleSpinBoxZ1"));
+        doubleSpinBoxZ1->setGeometry(QRect(300, 40, 51, 23));
+        doubleSpinBoxZ1->setButtonSymbols(QAbstractSpinBox::NoButtons);
+        doubleSpinBoxZ1->setMinimum(-10000000000000000.000000000000000);
+        doubleSpinBoxZ1->setMaximum(100000000.000000000000000);
+        doubleSpinBoxZ1->setValue(0.000000000000000);
+        doubleSpinBoxYmax = new QDoubleSpinBox(frame_11);
+        doubleSpinBoxYmax->setObjectName(QString::fromUtf8("doubleSpinBoxYmax"));
+        doubleSpinBoxYmax->setGeometry(QRect(450, 40, 41, 23));
+        doubleSpinBoxYmax->setButtonSymbols(QAbstractSpinBox::NoButtons);
+        doubleSpinBoxYmax->setDecimals(2);
+        doubleSpinBoxYmax->setMaximum(100000000.000000000000000);
+        doubleSpinBoxYmax->setSingleStep(0.010000000000000);
+        doubleSpinBoxYmax->setValue(0.000000000000000);
+        pushButton_9 = new QPushButton(frame_11);
+        pushButton_9->setObjectName(QString::fromUtf8("pushButton_9"));
+        pushButton_9->setGeometry(QRect(50, 80, 201, 23));
+        scrollArea = new QScrollArea(centralWidget);
+        scrollArea->setObjectName(QString::fromUtf8("scrollArea"));
+        scrollArea->setGeometry(QRect(1250, 0, 31, 761));
+        scrollArea->setLineWidth(3);
+        scrollArea->setMidLineWidth(1);
+        scrollArea->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
+        scrollArea->setWidgetResizable(true);
+        scrollAreaWidgetContents = new QWidget();
+        scrollAreaWidgetContents->setObjectName(QString::fromUtf8("scrollAreaWidgetContents"));
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 16, 742));
+        scrollArea->setWidget(scrollAreaWidgetContents);
+        frame_6 = new QFrame(centralWidget);
+        frame_6->setObjectName(QString::fromUtf8("frame_6"));
+        frame_6->setGeometry(QRect(580, 10, 341, 80));
+        frame_6->setFrameShape(QFrame::Panel);
+        frame_6->setFrameShadow(QFrame::Plain);
+        frame_6->setLineWidth(2);
+        frame_6->setMidLineWidth(2);
+        label_46 = new QLabel(frame_6);
+        label_46->setObjectName(QString::fromUtf8("label_46"));
+        label_46->setGeometry(QRect(50, 0, 271, 31));
+        doubleSpinBox_19 = new QDoubleSpinBox(frame_6);
+        doubleSpinBox_19->setObjectName(QString::fromUtf8("doubleSpinBox_19"));
+        doubleSpinBox_19->setGeometry(QRect(230, 40, 91, 31));
+        doubleSpinBox_19->setDecimals(3);
+        doubleSpinBox_19->setMaximum(9000.000000000000000);
+        doubleSpinBox_19->setSingleStep(0.100000000000000);
+        doubleSpinBox_19->setValue(40.000000000000000);
+        doubleSpinBox_20 = new QDoubleSpinBox(frame_6);
+        doubleSpinBox_20->setObjectName(QString::fromUtf8("doubleSpinBox_20"));
+        doubleSpinBox_20->setEnabled(false);
+        doubleSpinBox_20->setGeometry(QRect(50, 40, 91, 31));
+        doubleSpinBox_20->setDecimals(1);
+        doubleSpinBox_20->setMaximum(9000.000000000000000);
+        doubleSpinBox_20->setSingleStep(0.100000000000000);
+        doubleSpinBox_20->setValue(300.000000000000000);
+        label_47 = new QLabel(frame_6);
+        label_47->setObjectName(QString::fromUtf8("label_47"));
+        label_47->setGeometry(QRect(20, 40, 55, 16));
+        label_45 = new QLabel(frame_6);
+        label_45->setObjectName(QString::fromUtf8("label_45"));
+        label_45->setGeometry(QRect(190, 50, 31, 16));
+        frame_7 = new QFrame(centralWidget);
+        frame_7->setObjectName(QString::fromUtf8("frame_7"));
+        frame_7->setGeometry(QRect(580, 510, 591, 81));
+        frame_7->setFrameShape(QFrame::Panel);
+        frame_7->setFrameShadow(QFrame::Plain);
+        frame_7->setLineWidth(3);
+        label_50 = new QLabel(frame_7);
+        label_50->setObjectName(QString::fromUtf8("label_50"));
+        label_50->setGeometry(QRect(8, 30, 171, 20));
+        lineEdit_4 = new QLineEdit(frame_7);
+        lineEdit_4->setObjectName(QString::fromUtf8("lineEdit_4"));
+        lineEdit_4->setGeometry(QRect(178, 20, 301, 31));
+        pushButton_11 = new QPushButton(frame_7);
+        pushButton_11->setObjectName(QString::fromUtf8("pushButton_11"));
+        pushButton_11->setGeometry(QRect(500, 20, 71, 31));
+        frame = new QFrame(centralWidget);
+        frame->setObjectName(QString::fromUtf8("frame"));
+        frame->setGeometry(QRect(580, 150, 591, 331));
+        frame->setFrameShape(QFrame::Panel);
+        frame->setFrameShadow(QFrame::Plain);
+        frame->setLineWidth(3);
+        pushButton_8 = new QPushButton(frame);
+        pushButton_8->setObjectName(QString::fromUtf8("pushButton_8"));
+        pushButton_8->setGeometry(QRect(30, 200, 461, 41));
+        label_29 = new QLabel(frame);
+        label_29->setObjectName(QString::fromUtf8("label_29"));
+        label_29->setGeometry(QRect(20, 10, 531, 20));
+        doubleSpinBox_24 = new QDoubleSpinBox(frame);
+        doubleSpinBox_24->setObjectName(QString::fromUtf8("doubleSpinBox_24"));
+        doubleSpinBox_24->setGeometry(QRect(230, 80, 71, 31));
+        doubleSpinBox_24->setDecimals(0);
+        doubleSpinBox_24->setMaximum(10000000.000000000000000);
+        label_52 = new QLabel(frame);
+        label_52->setObjectName(QString::fromUtf8("label_52"));
+        label_52->setGeometry(QRect(40, 80, 181, 20));
+        pushButton_10 = new QPushButton(frame);
+        pushButton_10->setObjectName(QString::fromUtf8("pushButton_10"));
+        pushButton_10->setGeometry(QRect(460, 40, 71, 31));
+        lineEdit_8 = new QLineEdit(frame);
+        lineEdit_8->setObjectName(QString::fromUtf8("lineEdit_8"));
+        lineEdit_8->setGeometry(QRect(40, 40, 381, 31));
+        doubleSpinBox_25 = new QDoubleSpinBox(frame);
+        doubleSpinBox_25->setObjectName(QString::fromUtf8("doubleSpinBox_25"));
+        doubleSpinBox_25->setGeometry(QRect(30, 150, 91, 31));
+        doubleSpinBox_25->setDecimals(4);
+        doubleSpinBox_25->setMinimum(-100000000.000000000000000);
+        doubleSpinBox_25->setMaximum(10000000.000000000000000);
+        doubleSpinBox_25->setValue(-50.000000000000000);
+        doubleSpinBox_26 = new QDoubleSpinBox(frame);
+        doubleSpinBox_26->setObjectName(QString::fromUtf8("doubleSpinBox_26"));
+        doubleSpinBox_26->setGeometry(QRect(390, 150, 91, 31));
+        doubleSpinBox_26->setDecimals(4);
+        doubleSpinBox_26->setMinimum(-1000.000000000000000);
+        doubleSpinBox_26->setMaximum(10000000.000000000000000);
+        doubleSpinBox_26->setValue(1.000000000000000);
+        doubleSpinBox_27 = new QDoubleSpinBox(frame);
+        doubleSpinBox_27->setObjectName(QString::fromUtf8("doubleSpinBox_27"));
+        doubleSpinBox_27->setGeometry(QRect(210, 150, 91, 31));
+        doubleSpinBox_27->setDecimals(4);
+        doubleSpinBox_27->setMinimum(-1000.000000000000000);
+        doubleSpinBox_27->setMaximum(10000000.000000000000000);
+        doubleSpinBox_27->setValue(-0.100000000000000);
+        label_53 = new QLabel(frame);
+        label_53->setObjectName(QString::fromUtf8("label_53"));
+        label_53->setGeometry(QRect(30, 120, 111, 20));
+        label_54 = new QLabel(frame);
+        label_54->setObjectName(QString::fromUtf8("label_54"));
+        label_54->setGeometry(QRect(210, 120, 111, 20));
+        label_55 = new QLabel(frame);
+        label_55->setObjectName(QString::fromUtf8("label_55"));
+        label_55->setGeometry(QRect(380, 120, 111, 20));
+        lineEdit_9 = new QLineEdit(frame);
+        lineEdit_9->setObjectName(QString::fromUtf8("lineEdit_9"));
+        lineEdit_9->setGeometry(QRect(310, 280, 71, 31));
+        label_30 = new QLabel(frame);
+        label_30->setObjectName(QString::fromUtf8("label_30"));
+        label_30->setGeometry(QRect(150, 280, 151, 16));
+        MainWindow->setCentralWidget(centralWidget);
+        menuBar = new QMenuBar(MainWindow);
+        menuBar->setObjectName(QString::fromUtf8("menuBar"));
+        menuBar->setGeometry(QRect(0, 0, 1281, 21));
+        MainWindow->setMenuBar(menuBar);
+        mainToolBar = new QToolBar(MainWindow);
+        mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
+        MainWindow->addToolBar(Qt::TopToolBarArea, mainToolBar);
+        statusBar = new QStatusBar(MainWindow);
+        statusBar->setObjectName(QString::fromUtf8("statusBar"));
+        MainWindow->setStatusBar(statusBar);
+        toolBar = new QToolBar(MainWindow);
+        toolBar->setObjectName(QString::fromUtf8("toolBar"));
+        MainWindow->addToolBar(Qt::TopToolBarArea, toolBar);
+
+        retranslateUi(MainWindow);
+
+        QMetaObject::connectSlotsByName(MainWindow);
+    } // setupUi
+
+    void retranslateUi(QMainWindow *MainWindow)
+    {
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
+        label_27->setText(QApplication::translate("MainWindow", "\320\222\320\242\320\236\320\240\320\230\320\247\320\235\320\253\320\231 \320\236\320\242\320\221\320\236\320\240 \320\237\320\225\320\240\320\225\320\224\320\220\320\242\320\236\320\247\320\235\320\253\320\245 \320\247\320\230\320\241\320\225\320\233 \320\230\320\227 \320\244\320\220\320\231\320\233\320\220", nullptr));
+        pushButton_7->setText(QApplication::translate("MainWindow", "...", nullptr));
+        label_51->setText(QApplication::translate("MainWindow", "\320\222\321\201\320\265\320\263\320\276 \320\275\320\260\320\261\320\276\321\200\320\276\320\262", nullptr));
+        label_28->setText(QApplication::translate("MainWindow", "\320\235\320\260\320\271\320\264\320\265\320\275\320\276 \320\262\320\260\321\200\320\270\320\260\320\275\321\202\320\276\320\262:", nullptr));
+        pushButton_4->setText(QApplication::translate("MainWindow", "\320\236\321\202\320\276\320\261\321\200\320\260\321\202\321\214 \320\262\320\260\321\200\320\270\320\260\320\275\321\202\321\213", nullptr));
+        pushButton->setText(QApplication::translate("MainWindow", "\320\234\320\260\320\273\320\260\321\217 \320\267\320\260\320\264\320\260\321\207\320\260", nullptr));
+        label_8->setText(QApplication::translate("MainWindow", "\320\237\320\225\320\240\320\222\320\230\320\247\320\235\320\253\320\231 \320\237\320\236\320\224\320\221\320\236\320\240 \320\237\320\225\320\240\320\225\320\224\320\220\320\242\320\236\320\247\320\235\320\253\320\245 \320\247\320\230\320\241\320\225\320\233 \320\234\320\220\320\233\320\236\320\231 \320\227\320\220\320\224\320\220\320\247\320\230", nullptr));
+        label_9->setText(QApplication::translate("MainWindow", "\320\235\320\260\320\271\320\264\320\265\320\275\320\276 \320\262\320\260\321\200\320\270\320\260\320\275\321\202\320\276\320\262:", nullptr));
+        pushButton_5->setText(QApplication::translate("MainWindow", "...", nullptr));
+        label_26->setText(QApplication::translate("MainWindow", "\320\244\320\260\320\271\320\273 \321\201 \320\277\320\265\321\200\320\265\320\264. \321\207\320\270\321\201\320\273\320\260\320\274\320\270 \320\274\320\260\320\273\320\276\320\271 \320\267\320\260\320\264\320\260\321\207\320\270:", nullptr));
+        label_48->setText(QApplication::translate("MainWindow", "\320\222\321\201\320\265\320\263\320\276 \320\275\320\260\320\261\320\276\321\200\320\276\320\262", nullptr));
+        label_49->setText(QApplication::translate("MainWindow", "\320\222\321\213\320\261\321\200\320\260\321\202\321\214 \320\275\320\260\320\261\320\276\321\200 No :", nullptr));
+        pushButton_6->setText(QApplication::translate("MainWindow", "\320\221\320\276\320\273\321\214\321\210\320\260\321\217 \320\267\320\260\320\264\320\260\321\207\320\260", nullptr));
+        label_11->setText(QApplication::translate("MainWindow", "\320\235\320\260\320\271\320\264\320\265\320\275\320\276 \320\262\320\260\321\200\320\270\320\260\320\275\321\202\320\276\320\262:", nullptr));
+        label_25->setText(QApplication::translate("MainWindow", "\320\237\320\225\320\240\320\222\320\230\320\247\320\235\320\253\320\231 \320\237\320\236\320\224\320\221\320\236\320\240 \320\237\320\225\320\240\320\225\320\224\320\220\320\242\320\236\320\247\320\235\320\253\320\245 \320\247\320\230\320\241\320\225\320\233 \320\221\320\236\320\233\320\254\320\250\320\236\320\231 \320\227\320\220\320\224\320\220\320\247\320\230", nullptr));
+        label_20->setText(QApplication::translate("MainWindow", "c", nullptr));
+        label_18->setText(QApplication::translate("MainWindow", "\320\237\320\260\321\200\320\260\320\274\320\265\321\202\321\200\321\213 \320\273\320\265\320\274\320\275\320\270\321\201\320\272\320\260\321\202\321\213", nullptr));
+        label_21->setText(QApplication::translate("MainWindow", "a :", nullptr));
+        label_19->setText(QApplication::translate("MainWindow", "  L :", nullptr));
+        label_23->setText(QApplication::translate("MainWindow", "z2 :", nullptr));
+        label_24->setText(QApplication::translate("MainWindow", "  Ymax :", nullptr));
+        label_22->setText(QApplication::translate("MainWindow", "z1 :", nullptr));
+        pushButton_9->setText(QApplication::translate("MainWindow", "\320\237\320\236\320\241\320\242\320\240\320\236\320\230\320\242\320\254 \320\223\320\240\320\220\320\244\320\230\320\232", nullptr));
+        label_46->setText(QApplication::translate("MainWindow", "\320\226\320\265\320\273\320\260\320\265\320\274\321\213\320\271 \321\204\320\260\320\267\320\276\320\262\321\213\320\271 \320\262\320\265\320\272\321\202\320\276\321\200", nullptr));
+        label_47->setText(QApplication::translate("MainWindow", "Y", nullptr));
+        label_45->setText(QApplication::translate("MainWindow", "Vx", nullptr));
+        label_50->setText(QApplication::translate("MainWindow", "\320\244\320\260\320\271\320\273 \321\201 \321\200\320\265\320\267\321\203\320\273\321\214\321\202\320\260\321\202\320\260\320\274\320\270:", nullptr));
+        pushButton_11->setText(QApplication::translate("MainWindow", "...", nullptr));
+        pushButton_8->setText(QApplication::translate("MainWindow", "\320\235\320\260\320\271\321\202\320\270 \320\276\320\277\321\202\320\270\320\274 \320\262\320\260\321\200\320\270\320\260\320\275\321\202\321\213 \320\270 \320\277\320\276\320\273\320\276\320\266\320\270\321\202\321\214 \320\262 \321\204\320\260\320\271\320\273 \321\201 \321\200\320\265\320\267\321\203\320\273\321\214\321\202\320\260\321\202\320\260\320\274\320\270", nullptr));
+        label_29->setText(QApplication::translate("MainWindow", "\320\222\320\242\320\236\320\240\320\230\320\247\320\235\320\253\320\231 \320\236\320\242\320\221\320\236\320\240 \320\237\320\225\320\240\320\225\320\224\320\220\320\242\320\236\320\247\320\235\320\253\320\245 \320\247\320\230\320\241\320\225\320\233 \320\237\320\236 \320\232\320\236\320\240\320\235\320\257\320\234 \320\230\320\227 \320\244\320\220\320\231\320\233\320\220", nullptr));
+        label_52->setText(QApplication::translate("MainWindow", "\320\222\321\201\320\265\320\263\320\276 \320\275\320\260\320\261\320\276\321\200\320\276\320\262 \320\262 \321\204\320\260\320\271\320\273\320\265", nullptr));
+        pushButton_10->setText(QApplication::translate("MainWindow", "...", nullptr));
+        label_53->setText(QApplication::translate("MainWindow", "Re MIN", nullptr));
+        label_54->setText(QApplication::translate("MainWindow", "Re MAX", nullptr));
+        label_55->setText(QApplication::translate("MainWindow", "Max |Im/Re|", nullptr));
+        label_30->setText(QApplication::translate("MainWindow", "\320\235\320\260\320\271\320\264\320\265\320\275\320\276 \320\262\320\260\321\200\320\270\320\260\320\275\321\202\320\276\320\262:", nullptr));
+        toolBar->setWindowTitle(QApplication::translate("MainWindow", "toolBar", nullptr));
+    } // retranslateUi
+
+};
+
+namespace Ui {
+    class MainWindow: public Ui_MainWindow {};
+} // namespace Ui
+
+QT_END_NAMESPACE
+
+#endif // UI_MAINWINDOW_H

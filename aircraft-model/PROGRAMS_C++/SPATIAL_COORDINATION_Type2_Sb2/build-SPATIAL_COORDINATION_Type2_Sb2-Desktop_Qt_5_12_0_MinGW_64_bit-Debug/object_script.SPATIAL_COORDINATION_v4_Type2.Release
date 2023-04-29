@@ -1,0 +1,10 @@
+release/main.o
+release/mainwindow.o
+release/CalcCorMatrx.o
+release/Comp.o
+release/Equations.o
+release/MatrixProccess.o
+release/MinSquare.o
+release/Gauss.o
+release/ContObj6.o
+release/moc_mainwindow.o

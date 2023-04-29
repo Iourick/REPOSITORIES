@@ -1,0 +1,21 @@
+#include "OptCtrlSyst.h"
+#include "MatrixProccess.h"
+#include  <string.h>
+#include <math.h>
+#include <float.h>
+#include "Equations.h"
+
+
+#include "Comp.h"
+
+QOptCtrlSyst::QOptCtrlSyst()
+{
+  mdim = 0;
+  mpA = NULL;
+  mpB= NULL;
+  mpC= NULL;
+  mT0 = 0.;
+  marrPhVect0= NULL;
+  mTCur = 0.;
+  marrPhVect= NULL;
+}

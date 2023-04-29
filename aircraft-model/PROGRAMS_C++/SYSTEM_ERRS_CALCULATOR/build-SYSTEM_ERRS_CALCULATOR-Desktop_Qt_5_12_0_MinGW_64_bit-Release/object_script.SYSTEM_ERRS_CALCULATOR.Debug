@@ -1,0 +1,10 @@
+debug/main.o
+debug/mainwindow.o
+debug/CalcCorMatrx.o
+debug/Comp.o
+debug/Equations.o
+debug/MatrixProccess.o
+debug/MinSquare.o
+debug/Gauss.o
+debug/Adjustment.o
+debug/moc_mainwindow.o
